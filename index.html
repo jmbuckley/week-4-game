@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Crystal Collector</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- Optional JavaScript -->
+    <script type= "text/javascript" src="assets/javascript/game.js"></script>
+    
+  </head>
+  <body>
+      <div class="container">
+            <div class="row" id="brand">
+                <h1>Awesome Crystal Mining Co.</h1>
+            </div>
+            <div class"row">
+                <section class="col-12" id="rulebook">
+                    <h3>Rules Of Play</h3>
+                    <p>Welcome to Awesome Crystal Mining Co! We are glad to have you on board!</p>
+                    <p>Recently customers have become very particular about the crystals they will buy, and how much they will pay. Luckily for us, we found a mine that has all of the most popular crystals!</p>
+                    <p>The bad news is that because we mine based on pre-orders we have to hit our target each time, exactly! So STRESSFUL!!</p>
+                    <p>When you are ready to start click any button and we will tell you what your dollar quota is. Here is where it gets a little tricky...</p>
+                    <p>Below are the four crystals our customers want the most. The problem is that we can only let you know how much each one is worth when you turn them in.</p>
+                    <p>Click on any of the crystals and you we will tell you how much the crystal is worth.</p>
+                    <p>If you meet your quota EXACTLY, win the game by matching your total score to the number given. You lose the game if your total score goes over the number given.</p>
+                    <p>The value of each crystal is hidden until from we are going to give you a big ole BONUS $$$$</p>
+                    <p>BUT, if you go over the quota you get a demerit :( Sorry buddy ole pal, that's capitalism!</p>
+                    <h4>HINT: It's all in the maths!</h3>
+                </section>
+            </div>
+          <div class="row">
+              <div class="col-6" id="quota1">
+                  <h3>Daily Gem Quota:</h3>
+                  <h3>$<span id="targetQuota">0</span></h3>
+              </div>
+              <div class="col-6" id="gameCounter">
+                  <p><strong>Messages From Corporate: </strong><span id="message">Let's Get Mining</span></p>
+                  <p><strong>Earned Bonus:</strong> $<span id="bonus">0</span></p>
+                  <p><strong>Demerits: </strong><span id="demerits">0</span></p>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-3">
+                <img class="gem" id="diamond" src="assets/images/gem1.png" alt="Gem 1"/>
+              </div>
+              <div class="col-3">
+                    <img class="gem" id="ruby" src="assets/images/gem2.png" alt="Gem 2"/>
+              </div>
+              <div class="col-3">
+                    <img class="gem" id="opal" src="assets/images/gem3.png" alt="Gem 3"/>
+              </div>
+              <div class="col-3">
+                <img class="gem" id="sapphire" src="assets/images/gem4.png" alt="Gem 4"/>
+              </div>
+          </div>
+            <div class="row" id="yourScore">
+                <h3>Your Total Score Is</h3>
+            </div>
+            <div class= "col-2" id="quota2">
+                <h2>$<span id="yourQuota">0</span></h2>
+            </div>
+      </div>
+  </body>
+</html>
